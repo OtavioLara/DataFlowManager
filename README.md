@@ -10,6 +10,10 @@
 
 * docker run -i -t -p 5432:5432 --restart=always --name teste -e POSTGRES_DB=equals -e POSTGRES_PASSWORD=equals2019 -d postgres
 
+### Maven
+
+* How this API is a maven project you must to solve the dependencies before. I recommend Intellij Idea to do it.
+
 ### DFM backend apllication
 
 * The DFM keeps watching its *receive* folder created at the root of the project. 
